@@ -1,0 +1,6 @@
+openai>=1.0.0
+pymupdf>=1.24.0
+Pillow>=10.0.0
+chandra-ocr
+# For --mode vlm: start a vLLM server separately
+# e.g.: pip install vllm && vllm serve nanonets/Nanonets-OCR2-3B
