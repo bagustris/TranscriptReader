@@ -1,4 +1,4 @@
-# transcript_reader
+# TranscriptReader
 
 Analyzes academic transcript PDFs and outputs the total credits earned per grade category (S / A / B / C / Pass).
 
@@ -42,7 +42,7 @@ Each page is rendered at 2× resolution and sent directly to a vision-language m
 |--------------|---|---|---|---|------|
 | 100-point | 90–100 | 80–89 | 70–79 | 60–69 | — |
 | Letter (standard) | A+ | A / A− | B+ / B | B− / C+ / C / D | Pass |
-| 3-stage (A/B/C) | — | A | B | C | — |
+| 3-stage (A/B/C) | A | A | B | C | — |
 | 4-stage (S/A/B/C) | S | A | B | C | — |
 | Indonesian 5-stage | A | AB | B | BC / C | — |
 | 20-point (French) | 16.0–20.0 | 14.0–15.99 | 12.0–13.99 | 10.0–11.99 | — |
